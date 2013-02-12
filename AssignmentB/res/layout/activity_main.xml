@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Welcome to this simple App" />
+
+    <Button
+        android:id="@+id/pressMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/screen2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="PRESS ME" />
+
+    <Button
+        android:id="@+id/screen2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        android:text="Screen 2" />
+
+    <Button
+        android:id="@+id/screen3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pressMe"
+        android:layout_alignRight="@+id/text"
+        android:text="Screen 3" />
+
+</RelativeLayout>
